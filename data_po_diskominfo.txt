@@ -1,0 +1,363 @@
+PA/ACT/1906/1664/ORI
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG
+Jl. Ahmad Yani, Pasiran, Kota Singkawang, Kalimantan Barat, Indonesia, 79123
+101920B23433
+39.633.113
+
+4600071327
+PA/ACT/2002/0254/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG - Event Cap Go Meh
+Jl. Diponegoro, Pasiran, Singkawang Barat, Kota Singkawang, Kalimantan Barat, Indonesia, 79123
+102020B06767
+11.498.673
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	1	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003593	Instalasi CCTV (inc.Survey,Inst) Blk	2	AU	566.072
+3003594	Instalasi Access Point (inc.Survey) Blk	2	AU	566.072
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	1	U	149.131
+3003622	ODF Rack Mounted 6 Core(tipe SC upc)Blk	1	U	988.293
+3003660	Transportasi Luar Kota min2Drum150KM Blk	1	LOT	717.970
+
+4600071428
+PA/ACT/2001/4017/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG - CCTV Sekip Lama
+CCTV Sekip Lama - Jl. Pemuda,Singkawang Tengah ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79111
+102020B05018
+821.630
+Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+Tracing core (incl.Label Joint Box)Blk	1	AU	167.349
+Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+Patch Cord Single Mode 1 pasang 3m Blk	1	U	149.131
+ODF Rack Mounted 6 Core(tipe SC upc)Blk	1	U	988.293
+Tiang Besi 7 m (incl Jasa Pasang) Blk	2	BTG	2.378.348
+Transportasi Luar Kota min2Drum150KM Blk	1	LOT	717.970
+
+4600083067
+PA/ACT/2009/0731/TER
+DINAS PENANAMAN MODAL DAN TENAGA KERJA KOTA SINGKAWANG - MPP SINGKAWANG
+Grand Mall Singkawang ( Lantai Dasar ) - Jl. Tani Nomor 83, Pasiran, Kota Singkawang, Kalimantan Barat, Indonesia, 79123
+102020B36326
+Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+Tracing core (incl.Label Joint Box)Blk	1	AU	167.349
+Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+Patch Cord Single Mode 1 pasang 3m Blk	1	U	149.131
+ODF Rack Mounted 6 Core(tipe SC upc)Blk	1	U	988.293
+9.131.157
+
+
+4600248807
+PA/ACT/2202/3180/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Dinas Pendidikan Kota Singkawang
+Jl. Alianyang,Pasiran ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79122
+2220BQ063034
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	3	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003608	Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+3003622	ODF Rack Mounted 6 Core(tipe SC upc)Blk	1	U	988.293
+9.345.368
+
+4600249232
+PA/ACT/2202/3182/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG
+Kantor Kelurahan Setapuk Besar - Jl. Jend Ahmad Yani, Semelagi Kecil, Singkawang Utara, Kota Singkawang, Kalimantan Barat, Indonesia, 79151
+2220BQ063056
+Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+Tracing core (incl.Label Joint Box)Blk	2	AU	167.349
+Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+Instalasi Access Point (inc.Survey) Blk	2	AU	566.072
+Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+Tiang Besi 7 m (incl Jasa Pasang) Blk	1	BTG	2.378.348
+12.687.891
+
+4600249569
+PA/ACT/2202/0513/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG
+Panti Asuhan Ahmad Yani - Gang RDKS I, No. 39, Condong, Roban, Condong,Singkawang Tengah ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79111
+2220BQ039345
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	1	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003608	Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+10.665.752
+
+4600249588
+PA/ACT/2202/3395/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Kantor Kelurahan Pajintan
+Jl. Raya Pajintan, Timur, Singkawang Timur, Kota Singkawang, Kalimantan Barat, Indonesia, 79251
+2220BQ067574
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003572	Penarikan FOC ADSS Short Span Blk	3.800	M	4.094
+3003577	Jointing per core incl.labeling JB Blk	3	AU	47.159
+3003578	Tracing core (incl.Label Joint Box)Blk	3	AU	167.349
+3003579	OTDR per core Blk	2	AU	42.495
+3003581	Labeling Kabel (1 pole 2 label) Blk	68	U	11.384
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003598	Fitting Deadend, 6 - 48 core Blk	20	U	104.353
+3003599	Fitting Suspension, 6-48 core Blk	48	U	72.382
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003608	Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+26.729.613
+
+4600250074
+PA/ACT/2202/3175/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Kantor Kelurahan Naram
+Jl. Trisula, Naram,Singkawang Utara ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79151
+2220BQ063018
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003572	Penarikan FOC ADSS Short Span Blk	1.300	M	4.094
+3003577	Jointing per core incl.labeling JB Blk	4	AU	47.159
+3003578	Tracing core (incl.Label Joint Box)Blk	3	AU	167.349
+3003579	OTDR per core Blk	2	AU	42.495
+3003581	Labeling Kabel (1 pole 2 label) Blk	27	U	11.384
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003598	Fitting Deadend, 6 - 48 core Blk	9	U	104.353
+3003599	Fitting Suspension, 6-48 core Blk	18	U	72.382
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003608	Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+12.755.685
+
+4600251207
+PA/ACT/2202/3229/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Kantor Kelurahan Kuala
+Jl. Yos Sudarso, Gang Mathan Sibu, Kuala, Singkawang Barat, Kota Singkawang, Kalimantan Barat, Indonesia, 79122
+2220BQ063144
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003572	Penarikan FOC ADSS Short Span Blk	2.050	M	4.094
+3003577	Jointing per core incl.labeling JB Blk	2	AU	47.159
+3003578	Tracing core (incl.Label Joint Box)Blk	5	AU	167.349
+3003579	OTDR per core Blk	2	AU	42.495
+3003581	Labeling Kabel (1 pole 2 label) Blk	44	U	11.384
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003598	Fitting Deadend, 6 - 48 core Blk	16	U	104.353
+3003599	Fitting Suspension, 6-48 core Blk	28	U	72.382
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003608	Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+17.714.384
+
+4600251211
+PA/ACT/2202/3253/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG | Kantor Kelurahan Pasiran - Jl. GM Situt, Pasiran, Singkawang Barat, Kota Singkawang, Kalimantan Barat, Indonesia, 79123
+2220BQ063150
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	6	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003608	Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+11.502.497
+
+4600251212
+PA/ACT/2202/3270/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Kantor Kelurahan Bukit Batu
+Jl. Pramuka, Bukit Batu,Singkawang Tengah ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79151
+2220BQ063227
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003572	Penarikan FOC ADSS Short Span Blk	2.320	M	4.094
+3003577	Jointing per core incl.labeling JB Blk	3	AU	47.159
+3003578	Tracing core (incl.Label Joint Box)Blk	5	AU	167.349
+3003579	OTDR per core Blk	2	AU	42.495
+3003581	Labeling Kabel (1 pole 2 label) Blk	44	U	11.384
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003598	Fitting Deadend, 6 - 48 core Blk	13	U	104.353
+3003599	Fitting Suspension, 6-48 core Blk	31	U	72.382
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+18.425.886
+
+4600252387
+PA/ACT/2202/3225/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Kantor Kelurahan Sungai Rasau
+Jl. Jend Ahmad Yani, Sungai Rasau, Singkawang Utara, Kota Singkawang, Kalimantan Barat, Indonesia, 79151
+2220BQ063107
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	2	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003608	Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+10.833.101
+
+4600252402
+PA/ACT/2202/3360/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Kantor Kelurahan Jawa
+Jl. Bambang Ismoyo, Tengah, Singkawang Tengah, Kota Singkawang, Kalimantan Barat, Indonesia, 79113
+2220BQ064175
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	2	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+9.398.347
+
+4600252415
+PA/ACT/2202/3364/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Kantor Kelurahan Roban Jl. Sungai Mahakam, Roban, Singkawang Tengah, Kota Singkawang, Kalimantan Barat, Indonesia, 79112
+2220BQ064196
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	5	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+9.900.394
+
+4600253613
+PA/ACT/2202/3356/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG | Kantor Kelurahan Condong
+Jl. Jend Sudirman, Gang Panti Ahmad Yani, Condong,Singkawang Tengah ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79111
+2220BQ064157
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	4	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+9.733.045
+
+4600253682
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Kantor Kelurahan Melayu
+Jl. Jend Ahmad Yani, Melayu, Singkawang Barat, Kota Singkawang, Kalimantan Barat, Indonesia, 79111
+2220BQ063177
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	2	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003608	Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+9.743.471
+
+4600253710
+PA/ACT/2202/3266/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Kantor Kelurahan Tengah
+Jl. Tengah, Tengah,Singkawang Barat ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79111
+2220BQ063196
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	4	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003608	Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+10.078.169
+
+4600253929
+PA/ACT/2202/3221/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG Kantor Kelurahan Sungai Garam Hilir
+Jl. Semai, Sungai Garam Hilir,Singkawang Utara ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79151
+2220BQ063096
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003572	Penarikan FOC ADSS Short Span Blk	2.600	M	4.094
+3003577	Jointing per core incl.labeling JB Blk	3	AU	47.159
+3003578	Tracing core (incl.Label Joint Box)Blk	4	AU	167.349
+3003579	OTDR per core Blk	2	AU	42.495
+3003581	Labeling Kabel (1 pole 2 label) Blk	50	U	11.384
+3003594	Instalasi Access Point (inc.Survey) Blk	2	AU	566.072
+3003598	Fitting Deadend, 6 - 48 core Blk	16	U	104.353
+3003599	Fitting Suspension, 6-48 core Blk	34	U	72.382
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003608	Patch Cord Single Mode 1 pasang 5m Blk	2	U	172.562
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+20.914.562
+
+4600261450
+PA/ACT/2202/0502/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG
+Taman Cahaya Madani Gayung Bersambut - Pasiran, Singkawang Barat, Kota Singkawang, Kalimantan Barat, Indonesia, 79112
+2220BQ039146
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	7	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+10.235.092
+
+4600266988
+PA/ACT/2202/3368/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG
+Kantor Kelurahan Sekip Lama - Jl. Satria, Sekip Lama,Singkawang Tengah ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79113
+2220BQ064211
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003572	Penarikan FOC ADSS Short Span Blk	1.050	M	4.094
+3003577	Jointing per core incl.labeling JB Blk	1	AU	47.159
+3003578	Tracing core (incl.Label Joint Box)Blk	3	AU	167.349
+3003579	OTDR per core Blk	2	AU	42.495
+3003581	Labeling Kabel (1 pole 2 label) Blk	25	U	11.384
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003598	Fitting Deadend, 6 - 48 core Blk	9	U	104.353
+3003599	Fitting Suspension, 6-48 core Blk	16	U	72.382
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	1	U	149.131
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+10.928.921
+
+4600267846
+PA/ACT/2202/3368/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG
+Kantor Kelurahan Sekip Lama - Jl. Satria, Sekip Lama,Singkawang Tengah ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79113
+2220BQ064211
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003572	Penarikan FOC ADSS Short Span Blk	1.140	M	4.094
+3003577	Jointing per core incl.labeling JB Blk	3	AU	47.159
+3003578	Tracing core (incl.Label Joint Box)Blk	2	AU	167.349
+3003579	OTDR per core Blk	2	AU	42.495
+3003581	Labeling Kabel (1 pole 2 label) Blk	23	U	11.384
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003598	Fitting Deadend, 6 - 48 core Blk	9	U	104.353
+3003599	Fitting Suspension, 6-48 core Blk	14	U	72.382
+3003607	Patch Cord Single Mode 1 pasang 3m Blk	2	U	149.131
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+11.205.949
+
+4600270655
+PA/ACT/2202/0503/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG
+Arena Olahraga FPTI dan Basket - Jl. Masuk Lap. Kridasana, Pasiran, Singkawang Barat, Kota Singkawang, Kalimantan Barat, Indonesia, 79123
+2220BQ039269
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	4	AU	167.349
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	1	AU	566.072
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+10.524.413
+
+4600299363
+PA/ACT/2202/0512/TER
+DINAS KOMUNIKASI DAN INFORMATIKA KOTA SINGKAWANG | Taman Corner Jalan P. Dipenegoro - Jl. Penegoro, Pasiran,Singkawang Barat ,Kota Singkawang ,Kalimantan Barat ,Indonesia ,79111
+2220BQ039351
+3003571	Survey jalur kabel incl.Spotting GPS Blk	1	LOT	821.630
+3003578	Tracing core (incl.Label Joint Box)Blk	4	AU	167.349
+3003583	Instalasi FOT MC (POP-CPE) Blk	1	AU	1.170.516
+3003586	Penarikan FOC under 1.000 m Blk	1	LOT	6.390.012
+3003594	Instalasi Access Point (inc.Survey) Blk	2	AU	566.072
+3003606	Patch Cord Single Mode 1 pasang 1.5m Blk	3	U	134.214
+3003610	Patch Cord Single Mode 1 pasang 15m Blk	3	U	260.133
+3003618	Joint Box 24 Core Blk	1	U	1.089.630
+3003623	ODF Wall Mounted 6 Core(tipe SC upc)Blk	1	U	987.673
+3003635	Tiang Besi 7 m (incl Jasa Pasang) Blk	1	BTG	2.378.348
+15.822.390

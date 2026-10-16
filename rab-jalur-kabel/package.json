@@ -1,0 +1,9 @@
+{
+  "name": "rab-jalur-kabel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test hitung.test.mjs rute.test.mjs",
+    "start": "python server.py 8765"
+  }
+}

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAB Jalur Kabel — Diskominfo Singkawang</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js" defer></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <aside id="panel">
+    <header class="brand">
+      <h1>RAB Jalur Kabel</h1>
+      <div class="project-bar">
+        <select id="pilihProject" title="Pilih project"></select>
+        <button id="btnBaru" title="Project baru">+ Baru</button>
+        <button id="btnDuplikat" title="Duplikat project ini">Duplikat</button>
+        <button id="btnHapus" class="danger" title="Hapus project ini">Hapus</button>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button data-tab="jalur" class="active">Jalur</button>
+      <button data-tab="rab">RAB <span id="tabTotal"></span></button>
+    </nav>
+
+    <section id="tab-jalur" class="tab active">
+      <div class="card">
+        <label>Nama project <input id="fNama"></label>
+        <label>Pelanggan / lokasi <input id="fPelanggan"></label>
+        <label>No. PO <input id="fPO"></label>
+      </div>
+
+      <div class="card">
+        <h2>Titik</h2>
+        <div class="titik">
+          <button class="tool" data-tool="A"><span class="dot dot-A">A</span> Pelanggan</button>
+          <input class="koord" data-titik="A" placeholder="lat, lng">
+          <a class="gmaps" data-titik="A" target="_blank" rel="noopener" title="Buka di Google Maps">G</a>
+        </div>
+        <div class="titik">
+          <button class="tool" data-tool="B"><span class="dot dot-B">B</span> Titik sambung</button>
+          <input class="koord" data-titik="B" placeholder="lat, lng">
+          <a class="gmaps" data-titik="B" target="_blank" rel="noopener" title="Buka di Google Maps">G</a>
+        </div>
+        <div class="cari-b">
+          <button id="btnCariB" class="lebar">Pilih B dari JB sekitar A</button>
+          <div id="panelCariB" hidden>
+            <div class="radius">
+              <span>Radius dari A</span>
+              <input id="radiusCariB" type="range" min="0.5" max="20" step="0.5">
+              <b id="labelRadiusB"></b>
+            </div>
+            <div id="arahPOP" class="arah-pop"></div>
+            <select id="pilihJB" class="pilih-pop"></select>
+            <p class="catatan">JB hijau = searah ke POP (lebih dekat ke POP daripada A), JB merah = menjauh dari POP.
+              Klik JB di peta atau pilih dari daftar untuk dijadikan titik B.</p>
+          </div>
+        </div>
+        <div class="titik">
+          <button class="tool" data-tool="POP"><span class="dot dot-POP">P</span> POP</button>
+          <input class="koord" data-titik="POP" placeholder="lat, lng">
+          <a class="gmaps" data-titik="POP" target="_blank" rel="noopener" title="Buka di Google Maps">G</a>
+        </div>
+        <select id="pilihPOP" class="pilih-pop" title="Daftar POP, urut dari yang terdekat (ke B, ke A, atau ke tengah peta)"></select>
+      </div>
+
+      <div class="card">
+        <h2>Jalur</h2>
+        <label>Jalan yang dipakai
+          <select data-opsi="kelasJalan">
+            <option value="besar">Jalan besar saja</option>
+            <option value="sedang">+ jalan kecil bernama</option>
+            <option value="lingkungan">+ jalan lingkungan</option>
+          </select>
+        </label>
+        <label>Server data jalan <select id="serverJalan"></select></label>
+        <input id="serverSendiri" class="isian-lebar" placeholder="http://localhost:12345/api/interpreter" hidden>
+        <label class="check"><span><input id="pakaiOffline" type="checkbox"> Pakai data jalan offline dulu (jalan-kalbar.json)</span></label>
+        <p class="catatan">Gang, jalan setapak dan jalan servis tidak pernah dipakai. Tarik garis jalur untuk membelokkan, geser titik belok untuk menyesuaikan, klik kanan titik belok untuk menghapus.</p>
+        <div class="row">
+          <button id="btnUlangRute" title="Ambil ulang data jalan dan hitung rute lagi">↻ Hitung ulang rute</button>
+          <button id="btnResetBelok" class="danger" title="Hapus semua titik belok di jalur A→B dan B→POP">Hapus semua titik belok</button>
+        </div>
+        <div class="jalur">
+          <div class="jalur-head"><span class="garis garis-AB"></span><b>A → B</b> <small>tarikan baru</small></div>
+          <select data-mode="AB">
+            <option value="jalan">Ikuti jalan (terpendek)</option>
+            <option value="manual">Manual (klik titik di peta)</option>
+          </select>
+          <div class="row">
+            <button class="tool" data-tool="AB">+ Titik / tiang</button>
+            <button data-undo="AB">Hapus terakhir</button>
+            <button data-reset="AB">Reset</button>
+          </div>
+        </div>
+        <div class="jalur">
+          <div class="jalur-head"><span class="garis garis-BPOP"></span><b>B → POP</b> <small>tracing kabel existing</small></div>
+          <select data-mode="BPOP">
+            <option value="jalan">Ikuti jalan (terpendek)</option>
+            <option value="jb">Ikuti jalur JB (kabel existing)</option>
+            <option value="manual">Manual (klik titik di peta)</option>
+          </select>
+          <div class="row">
+            <button class="tool" data-tool="BPOP">+ Titik belok</button>
+            <button data-undo="BPOP">Hapus terakhir</button>
+            <button data-reset="BPOP">Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Tiang &amp; kabel</h2>
+        <label>Penempatan tiang
+          <select data-opsi="modeTiang">
+            <option value="otomatis">Otomatis tiap jarak</option>
+            <option value="klik">Titik klik = tiang</option>
+          </select>
+        </label>
+        <label>Jarak antar tiang (m) <input data-opsi="jarakTiang" type="number" min="1" step="1"></label>
+        <label class="check" title="Di bawah 200 m jadi 500 m; 700–1000 m +200 m; lainnya +450 m"><span><input data-opsi="spareKabel" type="checkbox"> Spare kabel otomatis</span></label>
+        <label>Core di ODF user (tracing, jointing) <input data-opsi="core" type="number" min="0" step="1"></label>
+        <label>Spare tracing <input data-opsi="spareTracing" type="number" min="0" step="1"></label>
+        <label>Transport ADSS jika A lebih dari (km dari Pontianak) <input data-opsi="batasTransportKm" type="number" min="0" step="5"></label>
+        <label>Radius JB dilewati (m) <input data-opsi="radiusJB" type="number" min="0" step="1"></label>
+        <label>Panjang 1 haspel (m) <input data-opsi="panjangHaspel" type="number" min="1" step="100"></label>
+        <label>Kabel 24 core jika A→B lebih dari (m) <input data-opsi="batasKabel24" type="number" min="0" step="500"></label>
+        <p class="catatan">Tracing = JB dilewati B→POP + core di user + spare (JB di A→B tidak dihitung). Labeling kabel = tracing,
+          deadend = tracing ÷ 3, suspension = labeling − deadend. Jointing = 2 di ODF user + semua core kabel (6/24)
+          di JB tapping dan di tiap JB sambungan haspel.
+          Joint Box baru tidak ditambah kalau B adalah JB existing. Klik tiang di peta untuk menandai tiang baru.</p>
+      </div>
+
+      <div class="card" id="ringkasan"></div>
+    </section>
+
+    <section id="tab-rab" class="tab">
+      <div class="rab-tools">
+        <label class="check"><span><input id="tampilNol" type="checkbox"> Tampilkan item volume 0</span></label>
+        <label>Pembulatan harga total ke atas
+          <select data-opsi="pembulatan">
+            <option value="1">Tidak dibulatkan</option>
+            <option value="100">Rp 100</option>
+            <option value="1000">Rp 1.000</option>
+            <option value="10000">Rp 10.000</option>
+          </select>
+        </label>
+      </div>
+      <table id="tabelRAB">
+        <thead><tr><th>Uraian</th><th>Volume</th><th>Harga satuan</th><th class="jml">Jumlah</th><th></th></tr></thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+      </table>
+      <p class="catatan">Volume &amp; harga bisa diubah (kotak kuning = diubah manual, ↺ untuk kembali ke otomatis).</p>
+      <div class="export">
+        <button id="btnXlsx">Excel (project ini)</button>
+        <button id="btnXlsxSemua">Excel (semua project)</button>
+        <button id="btnKml">KML (Google Earth / My Maps)</button>
+        <button id="btnJson">Backup JSON</button>
+        <label class="btn">Import JSON <input id="fileJson" type="file" accept=".json,application/json" hidden></label>
+      </div>
+    </section>
+  </aside>
+
+  <main id="peta-wrap">
+    <div id="peta"></div>
+    <form id="cari" class="cari" autocomplete="off">
+      <input id="cariInput" placeholder="Cari tempat atau koordinat (lat, lng)…">
+      <button>Cari</button>
+      <ul id="cariHasil"></ul>
+    </form>
+    <div id="hint" class="hint" hidden></div>
+    <div id="status" class="status" hidden></div>
+    <div id="toast" class="toast" hidden></div>
+  </main>
+</body>
+</html>
